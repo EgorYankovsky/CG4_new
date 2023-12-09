@@ -17,6 +17,7 @@ bool moving = false, canMake = false;
 vector<int> Shift = { 0, 0 };
 vector<int> Shift2 = { 0, 0 };
 string message = "Add points to make spline.";
+string message1 = "Add some new points.";
 
 struct point
 {
@@ -182,6 +183,11 @@ void Message()
 	glRasterPos2i(10, height - 24);
 	for (auto mes : message)
 		glutBitmapCharacter(GLUT_BITMAP_9_BY_15, mes);
+	glColor3ub(255, 0, 0);
+	glRasterPos2i(10, height - 54);
+	if ((checkPoints.size() - 1) % 3 != 0 || checkPoints.size() == 1)
+		for (auto mes : message1)
+			glutBitmapCharacter(GLUT_BITMAP_9_BY_15, mes);
 	glutPostRedisplay();
 }
 

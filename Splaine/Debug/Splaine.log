@@ -1,8 +1,8 @@
 ﻿  Main.cpp
-C:\Users\USER\Desktop\Splaine\Splaine\Splaine\header.h(198,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\USER\Desktop\Splaine\Splaine\Splaine\header.h(204,20): warning C4018: <: несоответствие типов со знаком и без знака
   (компиляция исходного файла "Main.cpp")
   
-C:\Users\USER\Desktop\Splaine\Splaine\Splaine\header.h(202,16): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\USER\Desktop\Splaine\Splaine\Splaine\header.h(208,16): warning C4018: >: несоответствие типов со знаком и без знака
   (компиляция исходного файла "Main.cpp")
   
 C:\Users\USER\Desktop\Splaine\Splaine\Splaine\Main.cpp(45,20): warning C4018: <: несоответствие типов со знаком и без знака
