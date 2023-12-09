@@ -1,0 +1,29 @@
+﻿  Main.cpp
+C:\Users\User\source\repos\Splaine\Splaine\header.h(194,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\User\source\repos\Splaine\Splaine\header.h(238,43): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\User\source\repos\Splaine\Splaine\header.h(239,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\User\source\repos\Splaine\Splaine\header.h(276,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\User\source\repos\Splaine\Splaine\Main.cpp(105,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInit в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitDisplayMode в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowSize в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMainLoop в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutCreateWindow в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutPostRedisplay в функции "void __cdecl Message(void)" (?Message@@YAXXZ).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutSwapBuffers в функции "void __cdecl Display(void)" (?Display@@YAXXZ).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutDisplayFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutReshapeFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMouseFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutPassiveMotionFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutSpecialFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutBitmapCharacter в функции "void __cdecl Axis(void)" (?Axis@@YAXXZ).
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\User\source\repos\Splaine\x64\Debug\Splaine.exe : fatal error LNK1120: неразрешенных внешних элементов: 13
